@@ -49,8 +49,8 @@ function App() {
           {/* Counter Card */}
           <Card className="bg-white/5 border-white/10 backdrop-blur-xl shadow-2xl hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-purple-500/10">
             <CardHeader>
-              <CardTitle className="text-white flex items-center gap-2">
-                <span className="text-2xl">⚡</span> Counter
+              <CardTitle className="text-white">
+                Counter
               </CardTitle>
               <CardDescription className="text-purple-200/50">
                 Classic React state example
@@ -88,8 +88,8 @@ function App() {
           {/* Input Card */}
           <Card className="bg-white/5 border-white/10 backdrop-blur-xl shadow-2xl hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-purple-500/10">
             <CardHeader>
-              <CardTitle className="text-white flex items-center gap-2">
-                <span className="text-2xl">✏️</span> Form Elements
+              <CardTitle className="text-white">
+                Form Elements
               </CardTitle>
               <CardDescription className="text-purple-200/50">
                 shadcn/ui input components
@@ -126,8 +126,8 @@ function App() {
           {/* Buttons Showcase */}
           <Card className="bg-white/5 border-white/10 backdrop-blur-xl shadow-2xl hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-purple-500/10">
             <CardHeader>
-              <CardTitle className="text-white flex items-center gap-2">
-                <span className="text-2xl">🎨</span> Button Variants
+              <CardTitle className="text-white">
+                Button Variants
               </CardTitle>
               <CardDescription className="text-purple-200/50">
                 All shadcn button styles
@@ -167,7 +167,6 @@ function App() {
           {/* Empty Playground Card */}
           <Card className="bg-white/5 border-white/10 border-dashed backdrop-blur-xl hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] md:col-span-2 lg:col-span-3">
             <CardContent className="flex flex-col items-center justify-center py-16 text-center">
-              <div className="text-5xl mb-4">🧪</div>
               <h3 className="text-xl font-semibold text-white mb-2">
                 Your Playground
               </h3>
@@ -183,10 +182,10 @@ function App() {
                   variant="outline"
                   className="border-white/20 text-white hover:bg-white/10 hover:text-white"
                 >
-                  📚 shadcn/ui Docs
+                  shadcn/ui Docs
                 </Button>
                 <Button className="bg-black text-white hover:bg-black/80 border-0">
-                  🚀 Start Building
+                  Start Building
                 </Button>
               </div>
             </CardContent>
