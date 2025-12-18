@@ -69,7 +69,7 @@ function App() {
                   −
                 </Button>
                 <Button
-                  className="flex-1 bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-500 hover:to-fuchsia-500 text-white border-0"
+                  className="flex-1 bg-black text-white hover:bg-black/80 border-0"
                   onClick={() => setCount((c) => c + 1)}
                 >
                   +
@@ -117,7 +117,7 @@ function App() {
                   className="bg-white/5 border-white/20 text-white placeholder:text-purple-200/30 focus:border-purple-400 focus:ring-purple-400/20"
                 />
               </div>
-              <Button className="w-full bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-500 hover:to-fuchsia-500 text-white border-0">
+              <Button className="w-full bg-black text-white hover:bg-black/80 border-0">
                 Submit
               </Button>
             </CardContent>
@@ -185,7 +185,7 @@ function App() {
                 >
                   📚 shadcn/ui Docs
                 </Button>
-                <Button className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-500 hover:to-fuchsia-500 text-white border-0">
+                <Button className="bg-black text-white hover:bg-black/80 border-0">
                   🚀 Start Building
                 </Button>
               </div>
